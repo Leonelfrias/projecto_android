@@ -41,7 +41,7 @@ header > h1{
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 }  
 header > p{
@@ -153,4 +153,9 @@ footer >p > a{
 footer a:hover{
 text-decoration: underline;
 color: var(--color2);
+}
+@media (max-width: 430px){
+    img{
+        width: 100%;
+    }
 }
